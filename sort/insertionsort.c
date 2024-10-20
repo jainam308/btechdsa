@@ -20,14 +20,8 @@ int main(){
         arr[j+1]=arr[j];
         j--;
        }
-       arr[j+1]=temp;
-       
-       
+       arr[j+1]=temp;   
     }
-    
- 
-   
- 
     
     for (int i = 0; i < n; i++)
     {

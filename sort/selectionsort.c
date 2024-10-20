@@ -27,9 +27,7 @@ int main(){
    }
     
    }
-   
- 
-    
+      
     for (int i = 0; i < n; i++)
     {
         printf("\n Element of array are %d ",arr[i]);

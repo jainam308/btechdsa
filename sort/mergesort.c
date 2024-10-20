@@ -20,9 +20,9 @@ void merge(int arr[], int lb, int mid, int ub) {
     }
     if (i>mid){
           while (j <= ub) {
-        arr2[k] = arr[j];
-        j++;
-        k++;
+            arr2[k] = arr[j];
+            j++;
+            k++;
     }
 
     }
@@ -35,9 +35,6 @@ void merge(int arr[], int lb, int mid, int ub) {
     }
 
     }
-    
-    
-  
     for (k = lb; k <= ub; k++) {
         arr[k] = arr2[k];
     }
